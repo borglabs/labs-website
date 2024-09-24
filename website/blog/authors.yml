@@ -1,0 +1,48 @@
+danialborg:
+  name: Danial Borg
+  title: Game Designer
+  socials:
+    x: borglabsstudio
+    github: borglabs
+  image_url: https://github.com/danialborg.png
+
+sethborg:
+  name: Seth Borg
+  title: Game Writer
+  socials:
+    x: borglabsstudio
+    github: borglabs
+  image_url: https://github.com/sethborg.png
+
+lewissmart:
+  name: Lewis Smart
+  title: Artist
+  socials:
+    x: lewissmart
+    github: borglabs
+  image_url: https://github.com/lewissmart.png
+
+borglabs:
+  name: Borg Labs
+  title: Game Studio
+  socials:
+    x: borglabsstudio
+    github: borglabs
+  image_url: https://github.com/borglabs.png
+
+hollytutin:
+  name: Holly Tutin
+  title: Writer/Editor
+  socials:
+    x: borglabsstudio
+    github: borglabs
+  image_url: https://github.com/hollytutin.png
+
+Fouad:
+  name: Fouad
+  title: Game Developer
+  socials:
+    x: borglabsstudio
+    github: borglabs
+  image_url: https://github.com/fouad.png
+
