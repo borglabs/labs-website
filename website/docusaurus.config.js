@@ -215,7 +215,7 @@ module.exports = {
       announcementBar: {
         id: 'oceancleanup-donate',
         content:
-          'Proud supporters of <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/donate/">The Ocean Cleanup. Please donate.</a>',
+          'Proud supporters of <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/donate/">The Ocean Cleanup. Please Donate!.</a>',
         backgroundColor: '#20232a',
         textColor: '#fff',
         isCloseable: false,
@@ -291,17 +291,6 @@ module.exports = {
             to: '/about',
             label: 'About',
             position: 'right',
-          },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            dropdownActiveClassDisabled: true,
-            dropdownItemsAfter: [
-              {
-                to: '/versions',
-                label: 'All versions',
-              },
-            ],
           },
           {
             href: 'https://github.com/facebook/react-native',
