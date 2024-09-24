@@ -24,7 +24,7 @@ const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'BORG LABS',
+  title: 'BORGLABS',
   tagline: 'Reactive Gameplay',
   organizationName: 'borglabs',
   projectName: 'labs-website',
@@ -215,7 +215,7 @@ module.exports = {
       announcementBar: {
         id: 'oceancleanup-donate',
         content:
-          'Proud supporters of <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/donate/">The Ocean Cleanup. Please Donate!.</a>',
+          'Proud supporters of <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/donate/">The Ocean Cleanup. Please Donate!</a>',
         backgroundColor: '#20232a',
         textColor: '#fff',
         isCloseable: false,
@@ -237,7 +237,7 @@ module.exports = {
         ],
       },
       navbar: {
-        title: 'BORG LABS',
+        title: 'BORGLABS',
         logo: {
           //src: 'img/header_logo.svg',
           src: 'img/logo.svg',

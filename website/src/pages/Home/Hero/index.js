@@ -21,16 +21,16 @@ function Hero() {
       <div className={styles.socialLinks}>
         <a
           className="twitter-follow-button"
-          href={`https://twitter.com/reactnative?ref_src=twsrc%5Etfw`}
+          href={`https://x.com/BorgLabsStudio`}
           data-show-count="false"
           data-size="large">
           Follow @borglabsstudio
         </a>
         <GitHubButton
-          href="https://github.com/facebook/react-native"
+          href="https://github.com/borglabs"
           data-icon="octicon-star"
           data-size="large"
-          aria-label="Star facebook/react-native on GitHub">
+          aria-label="Star Borglabs on GitHub">
           Star
         </GitHubButton>
       </div>
