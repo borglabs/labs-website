@@ -246,11 +246,12 @@ module.exports = {
         style: 'dark',
         items: [
           {
-            type: 'doc',
-            docId: 'overview',
+            //type: 'doc',
+            //docId: 'overview',
+            to: '/icarus',
             label: 'Icarus',
             position: 'right',
-            docsPluginId: 'contributing',
+            //docsPluginId: 'contributing',
           },
           {
             type: 'doc',
@@ -278,12 +279,6 @@ module.exports = {
                 label: 'Beta Testing',
                 type: 'doc',
                 docId: 'accessibilityinfo',
-              },
-              {
-                label: 'Architecture',
-                type: 'doc',
-                docId: 'architecture-overview',
-                docsPluginId: 'architecture',
               },
             ],
           },
@@ -334,10 +329,6 @@ module.exports = {
               {
                 label: 'APIs',
                 to: 'docs/accessibilityinfo',
-              },
-              {
-                label: 'Architecture',
-                to: 'architecture/overview',
               },
             ],
           },

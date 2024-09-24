@@ -2,22 +2,11 @@
   "docs": {
     "The Basics": [
       "getting-started",
-      "intro-react-native-components",
-      "intro-react",
-      "handling-text-input",
-      "using-a-scrollview",
-      "using-a-listview",
-      "troubleshooting",
-      "platform-specific-code",
-      "more-resources"
+      "intro-react-native-components"
     ],
     "Environment setup": [
       "environment-setup",
-      "set-up-your-environment",
-      "integration-with-existing-apps",
-      "integration-with-android-fragment",
-      "building-for-tv",
-      "out-of-tree-platforms"
+      "set-up-your-environment"
     ],
     "Workflow": [
       "running-on-device",
@@ -62,32 +51,21 @@
     ],
     "Debugging": [
       "debugging",
-      "react-devtools",
-      "debugging-native-code",
-      "debugging-release-builds",
-      "other-debugging-methods"
+      "react-devtools"
     ],
     "Testing": ["testing-overview"],
     "Performance": [
       "performance",
-      "build-speed",
-      "optimizing-flatlist-configuration",
-      "optimizing-javascript-loading",
-      "profiling",
-      "profile-hermes"
+      "build-speed"
     ],
     "JavaScript Runtime": ["javascript-environment", "timers", "hermes"],
     "Native Modules": [
       "native-modules-intro",
-      "native-modules-android",
-      "native-modules-ios",
-      "native-modules-setup",
-      "local-library-setup"
+      "native-modules-android"
     ],
     "Native Components": [
       "native-components-android",
-      "native-components-ios",
-      "direct-manipulation"
+      "native-components-ios"
     ],
     "Android and iOS guides": [
       {
@@ -97,9 +75,7 @@
         "collapsed": false,
         "items": [
           "headless-js-android",
-          "signed-apk-android",
-          "communication-android",
-          "react-native-gradle-plugin"
+          "signed-apk-android"
         ]
       },
       {
@@ -109,10 +85,7 @@
         "collapsed": false,
         "items": [
           "linking-libraries-ios",
-          "running-on-simulator-ios",
-          "communication-ios",
-          "app-extensions",
-          "publishing-to-app-store"
+          "running-on-simulator-ios"
         ]
       }
     ],
@@ -123,28 +96,6 @@
       "accessibilityinfo",
       "alert",
       "animated",
-      "animatedvalue",
-      "animatedvaluexy",
-      "appearance",
-      "appregistry",
-      "appstate",
-      "devsettings",
-      "dimensions",
-      "easing",
-      "interactionmanager",
-      "keyboard",
-      "layoutanimation",
-      "linking",
-      "panresponder",
-      "pixelratio",
-      "platform",
-      "platformcolor",
-      "roottag",
-      "share",
-      "stylesheet",
-      "systrace",
-      "transforms",
-      "vibration",
       {
         "type": "category",
         "label": "Hooks",
@@ -168,25 +119,6 @@
   "components": {
     "Core Components": [
       "components-and-apis",
-      "activityindicator",
-      "button",
-      "flatlist",
-      "image",
-      "imagebackground",
-      "keyboardavoidingview",
-      "modal",
-      "pressable",
-      "refreshcontrol",
-      "scrollview",
-      "sectionlist",
-      "statusbar",
-      "switch",
-      "text",
-      "textinput",
-      "touchablehighlight",
-      "touchableopacity",
-      "touchablewithoutfeedback",
-      "view",
       "virtualizedlist",
       {
         "type": "category",
@@ -203,16 +135,10 @@
     ],
     "Props": [
       "image-style-props",
-      "layout-props",
-      "shadow-props",
-      "text-style-props",
       "view-style-props"
     ],
     "Object Types": [
       "layoutevent",
-      "pressevent",
-      "react-node",
-      "rect",
       "viewtoken"
     ]
   }
