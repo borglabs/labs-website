@@ -36,16 +36,16 @@ function Section({
 
 const AppBox = ({app}) => {
   const imgSource = useBaseUrl(
-    app.icon.startsWith('http') ? app.icon : 'img/icarus/' + app.icon
+    app.icon.startsWith('http') ? app.icon : 'img/khloe-ttrpg/' + app.icon
   );
 
   return (
-    <div className="icarus">
+    <div className="khloe-ttrpg">
       <div className="iconBox">
         <img src={imgSource} alt={app.name} className="iconBackground" />
         <img src={imgSource} alt={app.name} className="icon" />
       </div>
-      <div className="icarusContent">
+      <div className="khloe-ttrpgContent">
         <div>
           <h3>{app.name}</h3>
           {renderLinks(app)}
@@ -92,13 +92,13 @@ const renderLinks = app => {
       i === 0 ? [link] : [<span key={i}> • </span>, link]
     );
 
-  return <p className="icarusLinks">{links}</p>;
+  return <p className="khloe-ttrpgLinks">{links}</p>;
 };
 
 const randomizeApps = apps =>
   [...apps].filter(app => !app.group).sort(() => 0.5 - Math.random());
 
-const Icarus = () => {
+const Khloettrpg = () => {
   const {siteConfig} = useDocusaurusContext();
 
   const {meta, microsoft, shopify, wix, amazon, others} =
@@ -112,12 +112,12 @@ const Icarus = () => {
   }, []);
 
   return (
-    <Layout title="Icarus" description="Description for Icarus page">
+    <Layout title="Khloe-ttrpg" description="Description for khloe-ttrpg page">
       <Section background="dark">
         <div className="sectionContainer headerContainer">
-          <h1>Icarus</h1>
+          <h1>khloe-ttrpg</h1>
           <p>
-            Subtitle of the new Icarus game
+            Subtitle of the new khloe-ttrpg game
             <br />
           </p>
         </div>
@@ -146,4 +146,4 @@ const Icarus = () => {
   );
 };
 
-export default Icarus;
+export default Khloettrpg;

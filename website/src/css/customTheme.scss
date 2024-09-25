@@ -641,8 +641,10 @@ a[class*="tagRegular"] {
   }
 
   .navbar__title {
+    font-family: "Montserrat";
     font-weight: 300;
     font-size: 38px;
+    letter-spacing: 1px;
   }
 
   .navbar__brand:hover {
@@ -688,7 +690,7 @@ a[class*="tagRegular"] {
   }
 
   .navbar__brand:hover .navbar__logo {
-    transform: rotate(180deg) scale(0.9);
+    //transform: rotate(180deg) scale(0.9);
   }
 
   .clean-btn:hover {

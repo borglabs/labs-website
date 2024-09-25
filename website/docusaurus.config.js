@@ -24,7 +24,7 @@ const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'BORGLABS',
+  title: 'BORG LABS',
   tagline: 'Reactive Gameplay',
   organizationName: 'borglabs',
   projectName: 'labs-website',
@@ -237,7 +237,8 @@ module.exports = {
         ],
       },
       navbar: {
-        title: 'BORGLABS',
+        title: 'BORG LABS',
+        //title-colored: 'LABS',
         logo: {
           //src: 'img/header_logo.svg',
           src: 'img/logo.svg',
@@ -254,11 +255,12 @@ module.exports = {
             //docsPluginId: 'contributing',
           },
           {
-            type: 'doc',
-            docId: 'overview',
+            //type: 'doc',
+            //docId: 'overview',
+            to: '/khloe-ttrpg',
             label: 'Khloe TTRGP',
             position: 'right',
-            docsPluginId: 'community',
+            //docsPluginId: 'community',
           },
           {
             label: 'Wikis',
@@ -292,12 +294,12 @@ module.exports = {
             label: 'About',
             position: 'right',
           },
-          {
-            href: 'https://github.com/facebook/react-native',
-            'aria-label': 'GitHub repository',
-            position: 'right',
-            className: 'navbar-facebook-link',
-          },
+          //{
+          //  href: 'https://github.com/facebook/react-native',
+          //  'aria-label': 'GitHub repository',
+          //  position: 'right',
+          //  className: 'navbar-facebook-link',
+          //},
         ],
       },
       image: 'img/logo-og.png',
@@ -388,12 +390,12 @@ module.exports = {
         },
         copyright,
       },
-      algolia: {
-        appId: '8TDSE0OHGQ',
-        apiKey: '83cd239c72f9f8b0ed270a04b1185288',
-        indexName: 'react-native-v2',
-        contextualSearch: true,
-      },
+      //algolia: {
+      //appId: '8TDSE0OHGQ',
+      //apiKey: '83cd239c72f9f8b0ed270a04b1185288',
+      //indexName: 'react-native-v2',
+      //contextualSearch: true,
+      //},
       metadata: [
         {
           property: 'og:image',
