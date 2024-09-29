@@ -16,7 +16,7 @@ import Home from './Home';
 const Index = () => {
   return (
     <Layout
-      description="A framework for building native apps using React"
+      description="BORG LABS · Independent Game Studio"
       wrapperClassName="homepage">
       <Head>
         <title>BORG LABS · Independent Game Studio</title>

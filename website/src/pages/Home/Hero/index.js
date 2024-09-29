@@ -26,13 +26,6 @@ function Hero() {
           data-size="large">
           Follow @borglabsstudio
         </a>
-        <GitHubButton
-          href="https://github.com/borglabs"
-          data-icon="octicon-star"
-          data-size="large"
-          aria-label="Star Borglabs on GitHub">
-          Star
-        </GitHubButton>
       </div>
       <div className={styles.backgroundContainer}>
         <div className={styles.gridBackground}>
@@ -46,7 +39,6 @@ function Hero() {
         </div>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.title}>BORG LABS</h1>
         <h2 className={styles.subtitle}>Independent Game Studio.</h2>
         <div className={styles.buttonContainer}>
           <a href="/docs/environment-setup" className={styles.primaryButton}>
