@@ -10,11 +10,11 @@
   "scripts": {
     "postinstall": "yarn update-lock",
     "update-lock": "yarn-deduplicate",
-    "docusaurus": "yarn workspace react-native-website docusaurus",
-    "website:start": "yarn workspace react-native-website start",
-    "website:build": "yarn workspace react-native-website build",
-    "website:build:fast": "yarn workspace react-native-website build:fast",
-    "website:serve": "yarn workspace react-native-website serve"
+    "docusaurus": "yarn workspace labs-website docusaurus",
+    "website:start": "yarn workspace labs-website start",
+    "website:build": "yarn workspace labs-website build",
+    "website:build:fast": "yarn labs-website build:fast",
+    "website:serve": "yarn workspace labs-website serve"
   },
   "husky": {
     "hooks": {
