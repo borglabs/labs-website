@@ -121,13 +121,34 @@ const About = () => {
             About <span>BORG LABS</span>
           </h1>
           <p>
-          Borg Labs is an independent game studio based in the cultural village of Nimbin and the vibrant Gold Coast,<br/> on the East Coast of Australia.
+            Borg Labs is an independent game studio based in the cultural
+            village of Nimbin and the vibrant Gold Coast,
+            <br /> on the East Coast of Australia.
+          </p>
+          <p>
+            With a small team of talented creatives, we have the ability to be
+            agile in our projects, delivering original and engaging content.
+            Projects range from:
+            <br />
+            • Tabletop Role playing games and stories
+            <br />
+            • Fun 3D side scrolling dungeon crawling RPG video games.
+            <br />
+            • Immersive 3D RPG worlds.
+            <br />
+          </p>
+          <h1>The Team</h1>
+          <p>
+            • <b>Danial Borg</b> | Project Manager/Game Designer
+            <br />• <b>Seth Borg</b> | Creative Director
+            <br />• <b>Lewis Smart</b> | Artist/Graphics
+            <br />• <b>Holly Tutin</b> | Copywriting
+            <br />• <b>Satoshi Nakamoto</b> | Game Dev
+            <br />
           </p>
         </div>
       </Section>
-      <Section>
-        
-      </Section>
+      <Section></Section>
       <Section background="dark">
         <div className="sectionContainer footerContainer">
           <a
@@ -137,7 +158,8 @@ const About = () => {
             Subscribe to our newsletter by filling out this form
           </a>
           <p>
-            Mailing list is maintained by us. See our Privacy Policy<a href="https://borglabs.net/privacy-policy"></a>.
+            Mailing list is maintained by us. See our Privacy Policy
+            <a href="https://borglabs.net/privacy-policy"></a>.
           </p>
         </div>
       </Section>
