@@ -215,7 +215,7 @@ module.exports = {
       announcementBar: {
         id: 'oceancleanup-donate',
         content:
-          'Proud supporters of <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/donate/">The Ocean Cleanup. Please Donate!</a>',
+          'Proud supporters of <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/donate/">The Ocean Cleanup. Please Donate!.</a>',
         backgroundColor: '#20232a',
         textColor: '#fff',
         isCloseable: false,
@@ -238,7 +238,6 @@ module.exports = {
       },
       navbar: {
         title: 'BORG LABS',
-        //title-colored: 'LABS',
         logo: {
           //src: 'img/header_logo.svg',
           src: 'img/logo.svg',
@@ -255,12 +254,11 @@ module.exports = {
             //docsPluginId: 'contributing',
           },
           {
-            //type: 'doc',
-            //docId: 'overview',
-            to: '/khloe-ttrpg',
+            type: 'doc',
+            docId: 'overview',
             label: 'Khloe TTRGP',
             position: 'right',
-            //docsPluginId: 'community',
+            docsPluginId: 'community',
           },
           {
             label: 'Wikis',
@@ -294,12 +292,12 @@ module.exports = {
             label: 'About',
             position: 'right',
           },
-          //{
-          //  href: 'https://github.com/facebook/react-native',
-          //  'aria-label': 'GitHub repository',
-          //  position: 'right',
-          //  className: 'navbar-facebook-link',
-          //},
+          {
+            href: 'https://github.com/facebook/react-native',
+            'aria-label': 'GitHub repository',
+            position: 'right',
+            className: 'navbar-facebook-link',
+          },
         ],
       },
       image: 'img/logo-og.png',
@@ -357,11 +355,7 @@ module.exports = {
               },
               {
                 label: 'X',
-                href: 'https://x.com/reactnative',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/react-native',
+                href: 'https://x.com/BorgLabsStudio',
               },
             ],
           },
@@ -390,12 +384,12 @@ module.exports = {
         },
         copyright,
       },
-      //algolia: {
-      //appId: '8TDSE0OHGQ',
-      //apiKey: '83cd239c72f9f8b0ed270a04b1185288',
-      //indexName: 'react-native-v2',
-      //contextualSearch: true,
-      //},
+      algolia: {
+        appId: '8TDSE0OHGQ',
+        apiKey: '83cd239c72f9f8b0ed270a04b1185288',
+        indexName: 'react-native-v2',
+        contextualSearch: true,
+      },
       metadata: [
         {
           property: 'og:image',
@@ -406,7 +400,7 @@ module.exports = {
           name: 'twitter:image',
           content: 'https://reactnative.dev/img/logo-og.png',
         },
-        {name: 'twitter:site', content: '@borglabsstudio'},
+        {name: 'twitter:site', content: '@BorgLabsStudio'},
       ],
     }),
 };

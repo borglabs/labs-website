@@ -24,8 +24,15 @@ function Hero() {
           href={`https://x.com/BorgLabsStudio`}
           data-show-count="false"
           data-size="large">
-          Follow @borglabsstudio
+          Follow @BorgLabsStudio
         </a>
+        <GitHubButton
+          href="https://github.com/facebook/react-native"
+          data-icon="octicon-star"
+          data-size="large"
+          aria-label="Star facebook/react-native on GitHub">
+          Star
+        </GitHubButton>
       </div>
       <div className={styles.backgroundContainer}>
         <div className={styles.gridBackground}>
@@ -39,6 +46,7 @@ function Hero() {
         </div>
       </div>
       <div className={styles.content}>
+        <h1 className={styles.title}>BORG LABS</h1>
         <h2 className={styles.subtitle}>Independent Game Studio.</h2>
         <div className={styles.buttonContainer}>
           <a href="/docs/environment-setup" className={styles.primaryButton}>

@@ -39,7 +39,6 @@ const DisplayAnImage = () => {
       <Image
         style={styles.tinyLogo}
         source={{
-          uri: 'https://reactnative.dev/img/tiny_logo.png',
         }}
       />
       <Image

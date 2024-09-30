@@ -118,11 +118,14 @@ const Icarus = () => {
           <h1>Icarus</h1>
           <p>
             Subtitle of the new Icarus game
-            <br />
+            <br /> on the East Coast of Australia.
           </p>
         </div>
       </Section>
       <Section>
+        <div class="row">
+          <div class="column"></div>
+        </div>
         <p>
           Content Area
           <br />
