@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install
       - name: Build
-        run: yarn workspace labs-website build
+        run: yarn workspace react-native-website build
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
