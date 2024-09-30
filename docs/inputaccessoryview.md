@@ -10,11 +10,11 @@ A component which enables customization of the keyboard input accessory view on 
 
 ## Chapter 1
 
-|                                  ⠀                                  |                                         ⠀                                         |
-| :-----------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-|      ![centaur](http://localhost:3000/img/khloe/centaur_x.png)      | ![wingtip_swordspear_x](http://localhost:3000/img/khloe/wingtip_swordspear_x.png) |
-|         ![satyr](http://localhost:3000/img/khloe/satyr.png)         |                  ![bow](http://localhost:3000/img/khloe/bow.png)                  |
-|  ![satyr_giant](http://localhost:3000/img/khloe/satyr_giant_x.png)  |
-| ![satyr_ranger](http://localhost:3000/img/khloe/satyr_ranger_x.png) |
-| ![satyr_warrior](http://localhost:3000/img/khloe/satyr_warrior.png) |
-|    ![demon_king](http://localhost:3000/img/khloe/demon_king.png)    |
+|                                       ⠀                                        |                                            ⠀                                            |
+| :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+|                ![centaur](/img/khloe/characters/centaur_x.png)                 | ![wingtip_swordspear_x](http://localhost:3000/img/khloe/items/wingtip_swordspear_x.png) |
+|         ![satyr](http://localhost:3000/img/khloe/characters/satyr.png)         |                  ![bow](http://localhost:3000/img/khloe/items/bow.png)                  |
+|  ![satyr_giant](http://localhost:3000/img/khloe/characters/satyr_giant_x.png)  |
+| ![satyr_ranger](http://localhost:3000/img/khloe/characters/satyr_ranger_x.png) |
+| ![satyr_warrior](http://localhost:3000/img/khloe/characters/satyr_warrior.png) |
+|    ![demon_king](http://localhost:3000/img/khloe/characters/demon_king.png)    |

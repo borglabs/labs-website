@@ -1,5 +1,5 @@
 {
-  "name": "React Native Documentation",
+  "name": "BOrg Labs Website",
   "short_name": "Borg Labs",
   "description": "Independent Game Studio",
   "theme_color": "#20232a",
@@ -11,7 +11,7 @@
   "id": "./index.html",
   "shortcuts": [
     {
-      "name": "Docummentation",
+      "name": "Documentation",
       "short_name": "Docs",
       "url": "/docs/getting-started",
       "icons": [{ "src": "img/pwa/manifest-icon-192.png", "sizes": "192x192" }]
