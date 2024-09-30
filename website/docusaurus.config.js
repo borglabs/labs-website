@@ -254,11 +254,12 @@ module.exports = {
             //docsPluginId: 'contributing',
           },
           {
-            type: 'doc',
-            docId: 'overview',
+            //type: 'doc',
+            to: '/khloe-ttrpg',
+            //docId: 'overview',
             label: 'Khloe TTRGP',
             position: 'right',
-            docsPluginId: 'community',
+            //docsPlugId: 'community',
           },
           {
             label: 'Wikis',
@@ -276,9 +277,11 @@ module.exports = {
                 docId: 'components-and-apis',
               },
               {
-                label: 'Beta Testing',
                 type: 'doc',
-                docId: 'accessibilityinfo',
+                docId: 'overview',
+                label: 'Testing',
+                type: 'doc',
+                docsPluginId: 'community',
               },
             ],
           },
@@ -305,24 +308,20 @@ module.exports = {
         style: 'dark',
         links: [
           {
-            title: 'Develop',
+            title: 'Content',
             items: [
               {
-                label: 'Guides',
-                to: 'docs/getting-started',
+                label: 'Icarus',
+                to: 'icarus',
               },
               {
-                label: 'Components',
-                to: 'docs/components-and-apis',
-              },
-              {
-                label: 'APIs',
-                to: 'docs/accessibilityinfo',
+                label: 'Khloe',
+                to: 'Khloe',
               },
             ],
           },
           {
-            title: 'Participate',
+            title: 'Community',
             items: [
               {
                 label: 'About',
@@ -332,26 +331,38 @@ module.exports = {
                 label: 'Contributing',
                 to: 'contributing/overview',
               },
-              {
-                label: 'Community',
-                to: 'community/overview',
-              },
-              {
-                label: 'Directory',
-                href: 'https://reactnative.directory/',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/react-native',
-              },
             ],
           },
           {
-            title: 'Find us',
+            title: 'Socials',
             items: [
               {
-                label: 'Blog',
-                to: 'blog',
+                label: 'Steam Page',
+                href: 'https://steamcommunity.com/id/borglabs/',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/ZDg8U2Mz',
+              },
+              {
+                label: 'Facebook',
+                to: 'https://www.facebook.com/borglabsstudio',
+              },
+              {
+                label: 'Instagram',
+                to: 'https://www.instagram.com/borglabsstudio',
+              },
+              {
+                label: 'Patreon',
+                href: 'https://www.patreon.com/borglabs',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@BorgLabsStudio',
+              },
+              {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@borglabsstudios',
               },
               {
                 label: 'X',
@@ -363,16 +374,16 @@ module.exports = {
             title: 'Explore More',
             items: [
               {
-                label: 'ReactJS',
-                href: 'https://react.dev/',
-              },
-              {
                 label: 'Privacy Policy',
-                href: 'https://opensource.fb.com/legal/privacy/',
+                href: 'privacy-policy',
               },
               {
                 label: 'Terms of Service',
-                href: 'https://opensource.fb.com/legal/terms/',
+                href: 'terms-of-service',
+              },
+              {
+                label: 'EULA',
+                href: 'eula',
               },
             ],
           },

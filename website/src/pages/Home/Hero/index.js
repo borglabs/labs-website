@@ -12,7 +12,7 @@ import Logo from '../Logo';
 
 import GridBackground from './GridBackground';
 import FloorBackground from './FloorBackground';
-import Devices from './Devices';
+//import Devices from './Devices';
 import styles from './styles.module.css';
 
 function Hero() {
@@ -38,9 +38,7 @@ function Hero() {
         <div className={styles.gridBackground}>
           <GridBackground />
         </div>
-        <div className={styles.devices}>
-          <Devices />
-        </div>
+
         <div className={styles.floorBackground}>
           <FloorBackground />
         </div>
@@ -49,11 +47,11 @@ function Hero() {
         <h1 className={styles.title}>BORG LABS</h1>
         <h2 className={styles.subtitle}>Independent Game Studio.</h2>
         <div className={styles.buttonContainer}>
-          <a href="/docs/environment-setup" className={styles.primaryButton}>
-            Get Started
+          <a href="icarus" className={styles.secondaryButton}>
+            Icarus
           </a>
-          <a href="/docs/getting-started" className={styles.secondaryButton}>
-            Learn the Basics
+          <a href="khloe" className={styles.secondaryButton}>
+            Khloe TTRPG
           </a>
         </div>
       </div>

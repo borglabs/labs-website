@@ -22,75 +22,30 @@ function Community() {
 
   return (
     <Section>
-      <SectionTitle title="Meta supported. Community driven." />
+      <SectionTitle title="Borg Labs supported. Community driven." />
       <div className={styles.featureContainer}>
         <div>
+          <p>We love feedback from the gamers that play our games.</p>
           <p>
-            Meta released React Native in 2015 and has been maintaining it ever
-            since.
+            To battle test our games we release early testable versions on{' '}
+            <span>
+              <a href="https://steam.com/">Steam Games.</a>
+            </span>
           </p>
           <p>
-            In 2018, React Native had the{' '}
-            <a href="https://octoverse.github.com/2018/projects#repositories">
-              2nd highest
-            </a>{' '}
-            number of contributors for any repository in GitHub. Today, React
-            Native is supported by contributions from individuals and companies
-            around the world including{' '}
+            If you'd like to join our elite team of Alpha and Beta testers,
+            message us via the{' '}
             <span>
-              <a href="https://callstack.com/">Callstack</a>
+              <a href="https://steam.com/">Steam Games Community.</a>
             </span>
-            ,{' '}
-            <span>
-              <a href="https://expo.io/">Expo</a>
-            </span>
-            , <a href="https://infinite.red/">Infinite Red</a>,{' '}
-            <a href="https://www.microsoft.com/">Microsoft</a> and{' '}
-            <a href="https://swmansion.com/">Software Mansion</a>.
-          </p>
-          <p>
-            Our community is always shipping exciting new projects and exploring
-            platforms beyond Android and iOS with repos like{' '}
-            <span>
-              <a href="https://github.com/microsoft/react-native-windows#readme">
-                React Native Windows
-              </a>
-            </span>
-            ,{' '}
-            <a href="https://github.com/microsoft/react-native-macos#readme">
-              React Native macOS
-            </a>{' '}
-            and{' '}
-            <a href="https://github.com/necolas/react-native-web#readme">
-              React Native Web
-            </a>
-            .
           </p>
         </div>
         <div>
           <p>
-          BORG LABS · Independent Game Studio
-          </p>
-          <ul className="AppList">
-            {apps.map((app, i) => {
-              const imgSource = !app.icon.startsWith('http')
-                ? useBaseUrl('img/about/' + app.icon)
-                : app.icon;
-              return (
-                <li key={i} className="item">
-                  {app.infoLink ? (
-                    <a href={app.infoLink}>
-                      <img src={imgSource} alt={app.name} />
-                    </a>
-                  ) : (
-                    <img src={imgSource} alt={app.name} />
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-          <p>
-            and <a href={useBaseUrl(`about`)}>many more</a>.
+            Meet and chat with other Icarus and Khloe gamers in the{' '}
+            <span>
+              <a href="https://discord.gg/ZDg8U2Mz">Discord Server.</a>
+            </span>
           </p>
         </div>
       </div>

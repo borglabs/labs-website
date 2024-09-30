@@ -16,45 +16,43 @@ function Watch() {
   return (
     <Section>
       <SectionTitle
-        title="Watch and learn"
+        title="Walkthroughs and Teasers"
         description={
           <>
-            Watch talks by the React team and learn how to get the most out of
-            React Native. Find the latest on{' '}
-            <a href="https://twitter.com/intent/follow?screen_name=reactnative&region=follow_link">
-              X
-            </a>
-            .
+            Watch walkthroughs by Seth the author himself, and see introductory
+            content for upcoming releases on our{' '}
+            <a href="https://www.youtube.com/@BorgLabsStudio">Youtube </a>
+            channel.
           </>
         }
       />
       <div className={styles.videos}>
         <div className={styles.videoContainer}>
           <iframe
-            src="https://www.youtube.com/embed/NCAY0HIfrwc"
-            title="Mobile Innovation with React Native, ComponentKit, and Litho"
+            src="https://www.youtube.com/@BorgLabsStudio"
+            title="Coming Soon"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className={styles.video}
           />
           <div className={styles.videoInfo}>
-            <h4>FB 2019: Mobile innovation with React Native</h4>
-            <p>45:29</p>
+            <h4>Coming Soon</h4>
+            <p>00:00</p>
           </div>
         </div>
         <div className={styles.videoContainer}>
           <iframe
-            src="https://www.youtube.com/embed/wUDeLT6WXnQ"
-            title="Explain Like I'm 5: React Native"
+            src="https://www.youtube.com/@BorgLabsStudio"
+            title="Coming Soon"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className={styles.video}
           />
           <div className={styles.videoInfo}>
-            <h4>Why React Native?</h4>
-            <p>1:42</p>
+            <h4>Coming Soon</h4>
+            <p>0:00</p>
           </div>
         </div>
       </div>
