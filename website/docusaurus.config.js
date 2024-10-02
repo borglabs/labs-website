@@ -139,7 +139,7 @@ module.exports = {
         id: 'khloettrpg',
         path: 'khloettrpg',
         routeBasePath: '/khloettrpg',
-        sidebarPath: require.resolve('./sidebarsKhloettrpg.json'),
+        sidebarPath: require.resolve('./sidebarsKhloeTTRPG.json'),
         ...commonDocsOptions,
       }),
     ],
