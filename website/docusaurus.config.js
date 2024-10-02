@@ -51,7 +51,7 @@ module.exports = {
   titleDelimiter: '·',
   customFields: {
     users,
-    facebookAppId: '1677033832619985',
+    facebookAppId: '000000000000',
   },
   i18n: {
     defaultLocale: 'en',
@@ -110,10 +110,10 @@ module.exports = {
         },
         // TODO: GA is deprecated, remove once we're sure data is streaming in GA4 via gtag.
         googleAnalytics: {
-          trackingID: 'UA-41298772-2',
+          trackingID: '0000000',
         },
         gtag: {
-          trackingID: 'G-58L13S6BDP',
+          trackingID: '00000000',
         },
       }),
     ],
