@@ -269,12 +269,13 @@ module.exports = {
               {
                 label: 'Icarus',
                 type: 'doc',
-                docId: 'getting-started',
+                docId: 'icarus-overview',
               },
               {
-                label: 'Khloe of Thebes',
                 type: 'doc',
-                docId: 'khloettrpg-overview',
+                docId: 'overview',
+                label: 'Khloe of Thebes',
+                docsPluginId: 'community',
               },
               {
                 type: 'doc',
@@ -396,9 +397,9 @@ module.exports = {
         copyright,
       },
       algolia: {
-        appId: '8TDSE0OHGQ',
-        apiKey: '83cd239c72f9f8b0ed270a04b1185288',
-        indexName: 'react-native-v2',
+        appId: '0000000',
+        apiKey: '0000000',
+        indexName: 'labs-website-v2',
         contextualSearch: true,
       },
       metadata: [

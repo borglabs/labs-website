@@ -1,4 +1,4 @@
 ---
-title: Communities
+title: Classes
 description: community
 ---
