@@ -120,17 +120,7 @@ module.exports = {
   ],
   plugins: [
     'docusaurus-plugin-sass',
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        id: 'khloettrpg',
-        path: 'khloettrpg',
-        routeBasePath: '/khloettrpg',
-        sidebarPath: require.resolve('./sidebarsKhloeTTRPG.json'),
-        ...commonDocsOptions,
-      }),
-    ],
+
     [
       'content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */
@@ -146,10 +136,10 @@ module.exports = {
       'content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */
       ({
-        id: 'community',
-        path: 'community',
-        routeBasePath: '/community',
-        sidebarPath: require.resolve('./sidebarsCommunity.json'),
+        id: 'khloettrpg',
+        path: 'khloettrpg',
+        routeBasePath: '/khloettrpg',
+        sidebarPath: require.resolve('./sidebarsKhloettrpg.json'),
         ...commonDocsOptions,
       }),
     ],
@@ -275,7 +265,7 @@ module.exports = {
                 type: 'doc',
                 docId: 'overview',
                 label: 'Khloe of Thebes',
-                docsPluginId: 'community',
+                docsPluginId: 'khloettrpg',
               },
               {
                 type: 'doc',

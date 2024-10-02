@@ -1,20 +1,9 @@
 {
-  "khloettrpg": [
+  "Khloe TTRPG": [
     {
       "type": "category",
-      "label": "The Beginnings",
-      "collapsed": false,
-      "items": [
-        "architecture-overview",
-        {
-          "type": "category",
-          "label": "Rendering",
-          "collapsible": false,
-          "collapsed": false,
-          "items": ["fabric-renderer", "threading-model"]
-        },
-        "architecture-glossary"
-      ]
+      "label": "Khloe TTRPG",
+      "items": ["overview"]
     }
   ]
 }
