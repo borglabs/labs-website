@@ -22,7 +22,7 @@ function Community() {
 
   return (
     <Section>
-      <SectionTitle title="Borg Labs supported. Community driven." />
+      <SectionTitle title="Early Access & Beta testing." />
       <div className={styles.featureContainer}>
         <div>
           <p>We love feedback from the gamers that play our games.</p>

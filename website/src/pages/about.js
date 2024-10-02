@@ -153,7 +153,7 @@ const About = () => {
         <div className="sectionContainer footerContainer">
           <a
             className="formButton"
-            href="https://forms.gle/BdNf"
+            href="https://forms.gle/6ZnaMPFmo9aBC5xw7"
             target="_blank">
             Subscribe to our newsletter by filling out this form
           </a>

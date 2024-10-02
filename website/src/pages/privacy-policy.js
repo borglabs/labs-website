@@ -120,31 +120,64 @@ const privacypolicy = () => {
           <h1>
             Privacy Policy <span>BORG LABS</span>
           </h1>
+          <h2>Who we are</h2>
           <p>
-            Borg Labs is an independent game studio based in the cultural
-            village of Nimbin and the vibrant Gold Coast,
-            <br /> on the East Coast of Australia.
-          </p>
-          <p>
-            With a small team of talented creatives, we have the ability to be
-            agile in our projects, delivering original and engaging content.
-            Projects range from:
+            Borg Labs, located in Nimbin NSW, Australia
             <br />
-            • Tabletop Role playing games and stories
+            ABN: 56719121803
             <br />
-            • Fun 3D side scrolling dungeon crawling RPG video games.
-            <br />
-            • Immersive 3D RPG worlds.
+            Our website address is: https://borglabs.net
             <br />
           </p>
-          <h1>The Team</h1>
+          <h2>Embedded content from other websites</h2>
           <p>
-            • <b>Danial Borg</b> | Project Manager/Game Designer
-            <br />• <b>Seth Borg</b> | Creative Director
-            <br />• <b>Lewis Smart</b> | Artist/Graphics
-            <br />• <b>Holly Tutin</b> | Copywriting
-            <br />• <b>Satoshi Nakamoto</b> | Game Dev
-            <br />
+            Articles on this site may include embedded content (e.g. videos,
+            images, articles, etc.). Embedded content from other websites
+            behaves in the exact same way as if the visitor has visited the
+            other website. These websites may collect data about you, use
+            cookies, embed additional third-party tracking, and monitor your
+            interaction with that embedded content, including tracking your
+            interaction with the embedded content if you have an account and are
+            logged in to that website.
+          </p>
+          <h2>How long we retain your data</h2>
+          <p>
+            If you leave a comment, the comment and its metadata are retained
+            indefinitely. This is so we can recognize and approve any follow-up
+            comments automatically instead of holding them in a moderation
+            queue. For users that register on our website (if any), we also
+            store the personal information they provide in their user profile.
+            All users can see, edit, or delete their personal information at any
+            time (except they cannot change their username). Website
+            administrators can also see and edit that information.
+          </p>
+          <h2>What rights you have over your data</h2>
+          <p>
+            If you have an account on this site, or have left comments, you can
+            request to receive an exported file of the personal data we hold
+            about you, including any data you have provided to us. You can also
+            request that we erase any personal data we hold about you. This does
+            not include any data we are obliged to keep for administrative,
+            legal, or security purposes.
+          </p>
+          <h2>Where we send your data</h2>
+          <p>
+            Visitor comments may be checked through an automated spam detection
+            service. At Borg Audio, accessible from https://borgaudio.net, one
+            of our main priorities is the privacy of our visitors. This Privacy
+            Policy document contains types of information that is collected and
+            recorded by Borg Audio and how we use it. If you have additional
+            questions or require more information about our Privacy Policy, do
+            not hesitate to contact us. This Privacy Policy applies only to our
+            online activities and is valid for visitors to our website with
+            regards to the information that they shared and/or collect in Borg
+            Audio. This policy is not applicable to any information collected
+            offline or via channels other than this website.
+          </p>
+          <h2>Consent</h2>
+          <p>
+            By using our website, you hereby consent to our Privacy Policy and
+            agree to its terms. and what we do
           </p>
         </div>
       </Section>
@@ -153,7 +186,7 @@ const privacypolicy = () => {
         <div className="sectionContainer footerContainer">
           <a
             className="formButton"
-            href="https://forms.gle/BdNf"
+            href="https://forms.gle/6ZnaMPFmo9aBC5xw7"
             target="_blank">
             Subscribe to our newsletter by filling out this form
           </a>

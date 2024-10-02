@@ -18,45 +18,23 @@ function Platforms() {
   return (
     <Section>
       <SectionTitle
-        title="Create native apps for Android, iOS, and more using React"
-        description="React Native brings the best parts of developing with React to native development. It's a best-in-class JavaScript library for building user interfaces."
+        title="Icarus"
+        description="Early Access coming soon on Steam"
       />
       <div className={styles.platformsContainer}>
         <div className={styles.featureContainer}>
-          <div className={styles.codeEditor}>
-            <div className={styles.codeEditorTitleContainer}>index.js</div>
-            <div className={styles.codeEditorContentContainer}>
-              <pre>
-                <span style={{color: 'var(--home-code-red)'}}>function</span>{' '}
-                <span style={{color: 'var(--home-code-purple'}}>
-                  HomeScreen
-                </span>
-                {`()`}
-                {` {`} <br />
-                <span
-                  style={{color: 'var(--home-code-red)'}}>{`  return `}</span>
-                {`(`} <br />
-                {`    <`}
-                <span style={{color: 'var(--home-code-green)'}}>View</span>
-                {`>`} <br />
-                {`      <`}
-                <span style={{color: 'var(--home-code-green)'}}>{`Text`}</span>
-                {`>`} Hello World 👋 🌍!{`</`}
-                <span style={{color: 'var(--home-code-green)'}}>{`Text`}</span>
-                {`>`}
-                <br />
-                {`    </`}
-                <span style={{color: 'var(--home-code-green)'}}>View</span>
-                {`>`} <br />
-                {`  );`} <br />
-                {`}`}
-              </pre>
-            </div>
+          <div className={styles.deviceContainer}>
+            <ThemeImage
+              lightSrc="/img/icarus/1.gif"
+              darkSrc="/img/icarus/1.gif"
+              className={styles.devices}
+              alt="Android device and iOS device"
+            />
           </div>
           <div className={styles.deviceContainer}>
             <ThemeImage
-              lightSrc="/img/homepage/devices.png"
-              darkSrc="/img/homepage/devices-dark.png"
+              lightSrc="/img/icarus/2.gif"
+              darkSrc="/img/icarus/2.gif"
               className={styles.devices}
               alt="Android device and iOS device"
             />
@@ -66,9 +44,7 @@ function Platforms() {
       <div className={styles.foxFactContainer}>
         <FoxFact className={styles.fox} />
         <p>
-          <strong>Written in JavaScript, rendered with native code.</strong>{' '}
-          React primitives render to native platform UI, meaning your app uses
-          the same native platform APIs other apps do.
+          <strong>Sign up to patreon for early access and testing</strong>{' '}
         </p>
       </div>
     </Section>

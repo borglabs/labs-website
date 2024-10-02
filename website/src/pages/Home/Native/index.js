@@ -17,22 +17,19 @@ function Native() {
   return (
     <Section>
       <SectionTitle
-        title="Native development for everyone"
+        title="Support us on Patreon"
         description={
           <>
-            React Native lets you create truly native apps and doesn't
-            compromise your users' experiences. It provides a core set of
-            platform agnostic native components like <code>View</code>,{' '}
-            <code>Text</code>, and <code>Image</code> that map directly to the
-            platform's native UI building blocks.
+            Get in on the action early, in-game loot rewards for finding the
+            classiest game bugs. Plus submit early development ideas. Support us
+            on Patreon.<br></br>
+            <a
+              href="https://www.patreon.com/borglabs"
+              className={styles.primaryButton}>
+              Borg Labs Patreon Homepage
+            </a>
           </>
         }
-      />
-      <ThemeImage
-        lightSrc="/img/homepage/dissection.png"
-        darkSrc="/img/homepage/dissection-dark.png"
-        className={styles.flyoutIllustration}
-        alt="A React Native UI pointing out native elements like Views, ScrollViews, and more"
       />
     </Section>
   );

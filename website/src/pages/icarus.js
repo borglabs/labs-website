@@ -116,10 +116,7 @@ const Icarus = () => {
       <Section background="dark">
         <div className="sectionContainer headerContainer">
           <h1>Icarus</h1>
-          <p>
-            Subtitle of the new Icarus game
-            <br /> on the East Coast of Australia.
-          </p>
+          <p>Subtitle of the new Icarus game</p>
         </div>
       </Section>
       <Section>
@@ -135,7 +132,7 @@ const Icarus = () => {
         <div className="sectionContainer footerContainer">
           <a
             className="formButton"
-            href="https://forms.gle/BdNf"
+            href="https://forms.gle/6ZnaMPFmo9aBC5xw7"
             target="_blank">
             Subscribe to our newsletter by filling out this form
           </a>

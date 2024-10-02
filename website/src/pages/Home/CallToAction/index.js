@@ -16,7 +16,6 @@ function CallToAction() {
     <div className={styles.wrapper}>
       <div className={styles.background} />
       <div className={styles.container}>
-        <Logo />
         <span>BORG LABS</span>
         <h1 className={styles.title}>Subscribe to the Newsletter</h1>
         <a href="subscribe" className={styles.primaryButton}>

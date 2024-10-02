@@ -21,7 +21,6 @@ export default function Home() {
       <Hero />
       <Platforms />
       <Native />
-      <Framework />
       <Watch />
       <Community />
       <CallToAction />
