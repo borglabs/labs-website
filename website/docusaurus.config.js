@@ -386,12 +386,6 @@ module.exports = {
         },
         copyright,
       },
-      algolia: {
-        appId: '0000000',
-        apiKey: '0000000',
-        indexName: 'labs-website-v2',
-        contextualSearch: true,
-      },
       metadata: [
         {
           property: 'og:image',
