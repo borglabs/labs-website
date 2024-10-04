@@ -230,7 +230,7 @@ module.exports = {
         title: 'BORG LABS',
         logo: {
           //src: 'img/header_logo.svg',
-          src: 'img/logo.svg',
+          src: 'img/icarus/skeleton-attack.gif',
           alt: 'Borg Labs',
         },
         style: 'dark',
