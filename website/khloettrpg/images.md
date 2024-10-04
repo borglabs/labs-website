@@ -21,3 +21,4 @@ description: Images
 | ![satyr_ranger](/img/khloe/characters/satyr_ranger_x.png) |     |
 | ![satyr_warrior](/img/khloe/characters/satyr_warrior.png) |     |
 |    ![demon_king](/img/khloe/characters/demon_king.png)    |     |
+|           ![chania](/img/khloe/maps/chania.png)           |     |

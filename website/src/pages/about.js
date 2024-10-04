@@ -126,9 +126,17 @@ const About = () => {
             <br /> on the East Coast of Australia.
           </p>
           <p>
-            With a small team of talented creatives, we have the ability to be
-            agile in our projects, delivering original and engaging content.
-            Projects range from:
+            Welcome to Borg Labs! We’re a modest, family-run video game studio
+            nestled in the heart of Nimbin, Australia. With a small team of
+            talented creatives, we have the ability to be agile in our projects.
+            <br />
+            Our passion? Crafting unforgettable stories and experiences that
+            pull you in and keep you hooked. Every game we create is a labor of
+            love, designed to spark imagination and bring people together.
+            <br />
+            Whether you're diving into epic adventures or solving fun
+            challenges, Borg Labs is here to make sure your journey is always
+            engaging and full of heart. Let’s play! Projects range from:
             <br />
             • Tabletop Role playing games and stories
             <br />
