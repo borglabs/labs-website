@@ -23,3 +23,4 @@ description: Images
 |    ![demon_king](/img/khloe/characters/demon_king.png)    |     |
 |           ![chania](/img/khloe/maps/chania.jpg)           |     |
 |       ![snakes_den](/img/khloe/maps/snakes_den.jpg)       |     |
+|              ![borglabs](/img/labslogo.svg)               |     |
