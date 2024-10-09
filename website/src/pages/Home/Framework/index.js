@@ -17,65 +17,69 @@ function Framework() {
   return (
     <Section>
       <SectionTitle
-        title="Get a head start with a framework"
+        title="Khloe of Thebes TTRPG."
         description={
           <>
-            React Native brings the React programming paradigm to platforms like
-            Android and iOS. It doesn’t prescribe how to do routing, or how to
-            access each of the numerous platform APIs. To build a new app with
-            React Native, we recommend a framework like{' '}
-            <a href="https://expo.dev">Expo</a>.
+            Heartbroken and hollow, Khloe embarks on a quest to defy death
+            itself. She seeks out the mythical Golden Fleece, the only relic
+            said to possess the power to restore life. Driven by her singular
+            desire to reunite her family she succeeds in retrieving it. She
+            resurrects her brother first—his body rises, his soul intact, a
+            miracle. But when she turns the fleece toward her husband, something
+            goes terribly wrong. The magic fails. His body returns to life, but
+            his mind remains lost, consumed by a dark, unending void.{' '}
           </>
         }
       />
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <ThemeImage
-            lightSrc="/img/homepage/file-based-routing.png"
-            darkSrc="/img/homepage/file-based-routing-dark.png"
+            lightSrc="/img/khloe/characters/satyr_warrior.png"
+            darkSrc="/img/khloe/characters/satyr_warrior.png"
             className={styles.cardImage}
-            alt="File system with folders and files representing screens and navigation"
+            alt="Satyr Warrior"
           />
           <div className={styles.cardContent}>
-            <h4 className={styles.cardTitle}>File-based routing</h4>
+            <h4 className={styles.cardTitle}>Monsters</h4>
             <p className={styles.cardDescription}>
-              Create stack, modal, drawer, and tab screens with minimal
-              boilerplate using your filesystem.
+              Battle and interact with intriguing monsters.
             </p>
           </div>
         </div>
         <div className={styles.card}>
           <ThemeImage
-            lightSrc="/img/homepage/libraries.png"
-            darkSrc="/img/homepage/libraries-dark.png"
+            lightSrc="/img/khloe/maps/snakes_den.jpg"
+            darkSrc="/img/khloe/maps/snakes_den.jpg"
             className={styles.cardImage}
-            alt="Grid of icons representing libraries, SDKs, and native code"
+            alt="Snakes Den Map"
           />
           <div className={styles.cardContent}>
-            <h4 className={styles.cardTitle}>
-              Use any library, SDK, or native code
-            </h4>
-            <p className={styles.cardDescription}>
-              Generate native changes or write your own native code. Use over 50
-              modules to create your app.
-            </p>
+            <h4 className={styles.cardTitle}>Maps</h4>
+            <p className={styles.cardDescription}>Unique maps to explore.</p>
           </div>
         </div>
         <div className={styles.card}>
           <ThemeImage
-            lightSrc="/img/homepage/tools.png"
-            darkSrc="/img/homepage/tools-dark.png"
+            lightSrc="/img/khloe/items/caduceus.png"
+            darkSrc="/img/khloe/items/caduceus.png"
             className={styles.cardImage}
-            alt="List of developer tool toggles for debugging, performance, and more"
+            alt="Journal"
           />
           <div className={styles.cardContent}>
-            <h4 className={styles.cardTitle}>Developer tools</h4>
+            <h4 className={styles.cardTitle}>Loot</h4>
             <p className={styles.cardDescription}>
-              Get started quickly with Expo Go, then continue with
-              expo-dev-client: a module that adds Expo’s tools to apps that
-              require native changes.
+              Find skills, story, weapons, and more.
             </p>
           </div>
+        </div>
+      </div>
+      <div className={styles.wrapper}>
+        <div className={styles.container}>
+          <span>Alternates Released First</span>
+          <h1 className={styles.title}>Coming Soon</h1>
+          <a href="khloe-ttrpg" className={styles.primaryButton}>
+            More
+          </a>
         </div>
       </div>
     </Section>

@@ -44,7 +44,10 @@ function Platforms() {
       <div className={styles.foxFactContainer}>
         <FoxFact className={styles.fox} />
         <p>
-          <strong>Sign up to patreon for early access and testing</strong>{' '}
+          <strong>
+            We are currently working on and adding new content to the
+            website...apologies for any inconvenience.
+          </strong>{' '}
         </p>
       </div>
     </Section>

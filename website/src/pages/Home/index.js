@@ -23,6 +23,7 @@ export default function Home() {
       <Native />
       <Watch />
       <Community />
+      <Framework />
       <CallToAction />
     </>
   );
