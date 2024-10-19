@@ -28,7 +28,7 @@ function Platforms() {
               lightSrc="/img/icarus/1.gif"
               darkSrc="/img/icarus/1.gif"
               className={styles.devices}
-              alt="Icarus Game"
+              alt="Android device and iOS device"
             />
           </div>
           <div className={styles.deviceContainer}>
@@ -36,7 +36,7 @@ function Platforms() {
               lightSrc="/img/icarus/2.gif"
               darkSrc="/img/icarus/2.gif"
               className={styles.devices}
-              alt="Icarus Game"
+              alt="Android device and iOS device"
             />
           </div>
         </div>

@@ -16,13 +16,12 @@
     115deg,
     var(--home-feature-background-1) 0%,
     var(--home-feature-background-2) 50%,
-    var(--home-feature-background-3) 100%,
-    opacity: 0.0;
+    var(--home-feature-background-3) 100%
   );
   height: 340px;
   width: auto;
   border-radius: 1rem;
-  border: 0px solid var(--home-border);
+  border: 1px solid var(--home-border);
   display: flex;
   justify-content: center;
   align-items: center;

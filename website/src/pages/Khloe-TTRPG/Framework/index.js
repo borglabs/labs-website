@@ -19,49 +19,6 @@ function Framework() {
       <SectionTitle
         title="Khloe of Thebes TTRPG."
         description={
-          <>A young spartan girls destiny amongst Titans and Gods </>
-        }
-      />
-      <div className={styles.cardContainer}>
-        <div className={styles.card}>
-          <ThemeImage
-            lightSrc="/img/khloe/characters/mentor.png"
-            darkSrc="/img/khloe/characters/mentor.png"
-            className={styles.cardImage}
-            alt="Mentor"
-          />
-          <div className={styles.cardContent}>
-            <h4 className={styles.cardTitle}>Mentor</h4>
-            <p className={styles.cardDescription}>Friend and fellow warrior</p>
-          </div>
-        </div>
-        <div className={styles.card}>
-          <ThemeImage
-            lightSrc="/img/khloe/characters/khloe.png"
-            darkSrc="/img/khloe/characters/khloe.png"
-            className={styles.cardImage}
-            alt="Khloe"
-          />
-          <div className={styles.cardContent}>
-            <h4 className={styles.cardTitle}>Khloe</h4>
-            <p className={styles.cardDescription}>Demigod, World Destroyer.</p>
-          </div>
-        </div>
-        <div className={styles.card}>
-          <ThemeImage
-            lightSrc="/img/khloe/characters/druid.png"
-            darkSrc="/img/khloe/characters/druid.png"
-            className={styles.cardImage}
-            alt="Druid"
-          />
-          <div className={styles.cardContent}>
-            <h4 className={styles.cardTitle}>Druid</h4>
-            <p className={styles.cardDescription}>Friends and Foes</p>
-          </div>
-        </div>
-      </div>
-      <SectionTitle
-        description={
           <>
             Heartbroken and hollow, Khloe embarks on a quest to defy death
             itself. She seeks out the mythical Golden Fleece, the only relic

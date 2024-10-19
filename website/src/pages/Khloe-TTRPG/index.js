@@ -19,11 +19,11 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Framework />
       <Platforms />
-      <Watch />
       <Native />
+      <Watch />
       <Community />
+      <Framework />
       <CallToAction />
     </>
   );

@@ -26,6 +26,13 @@ function Hero() {
           data-size="large">
           Follow @BorgLabsStudio
         </a>
+        <GitHubButton
+          href="https://github.com/facebook/react-native"
+          data-icon="octicon-star"
+          data-size="large"
+          aria-label="Star facebook/react-native on GitHub">
+          Star
+        </GitHubButton>
       </div>
       <div className={styles.backgroundContainer}>
         <div className={styles.gridBackground}>
@@ -37,14 +44,14 @@ function Hero() {
         </div>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.title}></h1>
+        <h1 className={styles.title}>BORG LABS</h1>
         <h2 className={styles.subtitle}>Independent Game Studio.</h2>
         <div className={styles.buttonContainer}>
-          <a href="khloettrpg/overview" className={styles.secondaryButton}>
-            Khloe TTRPG
+          <a href="icarus" className={styles.secondaryButton}>
+            Icarus
           </a>
-          <a href="docs/icarus-overview" className={styles.secondaryButton}>
-            Icarus-The Labyrinth
+          <a href="khloe" className={styles.secondaryButton}>
+            Khloe TTRPG
           </a>
         </div>
       </div>

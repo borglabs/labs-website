@@ -126,18 +126,22 @@ const About = () => {
             <br /> on the East Coast of Australia.
           </p>
           <p>
-            Welcome to Borg Labs! We’re a modest, family-run video game studio
-            nestled in the heart of Nimbin, Australia. With a small team of
-            talented creatives, we have the ability to be agile in our projects.
-            <br />
+            We’re a modest, family-run video game studio nestled in the heart of
+            Nimbin, Australia. With a small team of talented creatives, we have
+            the ability to be agile in our projects.
+          </p>
+          <p>
             Our passion? Crafting unforgettable stories and experiences that
             pull you in and keep you hooked. Every game we create is a labor of
             love, designed to spark imagination and bring people together.
-            <br />
+          </p>
+          <p>
             Whether you're diving into epic adventures or solving fun
             challenges, Borg Labs is here to make sure your journey is always
-            engaging and full of heart. Let’s play! Projects range from:
-            <br />
+            engaging and full of heart. <b>Let’s Play!</b>
+          </p>
+          <p>Projects range from:</p>
+          <p>
             • Tabletop Role playing games and stories
             <br />
             • Fun 3D side scrolling dungeon crawling RPG video games.
@@ -148,10 +152,10 @@ const About = () => {
           <h1>The Team</h1>
           <p>
             • <b>Danial Borg</b> | Project Manager/Game Designer
-            <br />• <b>Seth Borg</b> | Creative Director
+            <br />• <b>Seth Borg</b> | Creative Director/Author
             <br />• <b>Lewis Smart</b> | Artist/Graphics
-            <br />• <b>Holly Tutin</b> | Copywriting
-            <br />• <b>Satoshi Nakamoto</b> | Game Dev
+            <br />• <b>Holly Tutin</b> | Editing
+            <br />• <b>Fouad</b> | Game Dev
             <br />
           </p>
         </div>

@@ -15,8 +15,7 @@ const commonDocsOptions = {
   breadcrumbs: false,
   showLastUpdateAuthor: false,
   showLastUpdateTime: true,
-  editUrl:
-    'https://github.com/facebook/react-native-website/blob/main/website/',
+  editUrl: 'https://github.com/borglabs/',
   remarkPlugins: [require('@react-native-website/remark-snackplayer')],
 };
 
@@ -57,7 +56,7 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw', //'warn',
   webpack: {
     jsLoader: isServer => ({
       loader: require.resolve('esbuild-loader'),
@@ -235,7 +234,7 @@ module.exports = {
         },
         style: 'dark',
         items: [
-          {
+          /* {
             //type: 'doc',
             //docId: 'overview',
             to: '/icarus',
@@ -250,7 +249,7 @@ module.exports = {
             label: 'Khloe TTRGP',
             position: 'right',
             //docsPlugId: 'community',
-          },
+          }, */
           {
             label: 'Wikis',
             type: 'dropdown',
@@ -286,12 +285,12 @@ module.exports = {
             label: 'About',
             position: 'right',
           },
-          {
-            href: 'https://github.com/facebook/react-native',
-            'aria-label': 'GitHub repository',
-            position: 'right',
-            className: 'navbar-facebook-link',
-          },
+          //{
+          //href: 'https://github.com/borglabs',
+          //'aria-label': 'GitHub repository',
+          //position: 'right',
+          //className: 'navbar-facebook-link',
+          //},
         ],
       },
       image: 'img/logo-og.png',

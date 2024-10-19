@@ -9,9 +9,9 @@ import React, {useEffect, useState} from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import ThemedImage from '@theme/ThemedImage';
+//import ThemedImage from '@theme/ThemedImage';
 
-import IconExternalLink from '../theme/Icon/ExternalLink';
+import IconExternalLink from '../../theme/Icon/ExternalLink';
 
 const renderApp = (app, i) => <AppBox app={app} key={`app-${app.name}-${i}`} />;
 
@@ -36,16 +36,16 @@ function Section({
 
 const AppBox = ({app}) => {
   const imgSource = useBaseUrl(
-    app.icon.startsWith('http') ? app.icon : 'img/icarus/' + app.icon
+    app.icon.startsWith('http') ? app.icon : 'img/khloe-ttrpg/' + app.icon
   );
 
   return (
-    <div className="icarus">
+    <div className="khloe-ttrpg">
       <div className="iconBox">
         <img src={imgSource} alt={app.name} className="iconBackground" />
         <img src={imgSource} alt={app.name} className="icon" />
       </div>
-      <div className="icarusContent">
+      <div className="khloe-ttrpgContent">
         <div>
           <h3>{app.name}</h3>
           {renderLinks(app)}
@@ -92,13 +92,13 @@ const renderLinks = app => {
       i === 0 ? [link] : [<span key={i}> • </span>, link]
     );
 
-  return <p className="icarusLinks">{links}</p>;
+  return <p className="khloe-ttrpgLinks">{links}</p>;
 };
 
 const randomizeApps = apps =>
   [...apps].filter(app => !app.group).sort(() => 0.5 - Math.random());
 
-const Icarus = () => {
+const khloettrpg = () => {
   const {siteConfig} = useDocusaurusContext();
 
   const {meta, microsoft, shopify, wix, amazon, others} =
@@ -112,38 +112,17 @@ const Icarus = () => {
   }, []);
 
   return (
-    <Layout title="Icarus" description="Description for Icarus page">
+    <Layout
+      title="khloe-ttrpg"
+      description="Borg Labs is an independent game studio based in Nimbin, Byron Bay and the Gold Coast, Australia">
       <Section background="dark">
         <div className="sectionContainer headerContainer">
-          <h1>Icarus</h1>
-          <p>Subtitle of the new Icarus game</p>
+          <h1>Khloe TTRPG</h1>
         </div>
       </Section>
-      <Section>
-        <div class="row">
-          <div class="column"></div>
-        </div>
-        <p>
-          Content Area
-          <br />
-        </p>
-      </Section>
-      <Section background="dark">
-        <div className="sectionContainer footerContainer">
-          <a
-            className="formButton"
-            href="https://forms.gle/6ZnaMPFmo9aBC5xw7"
-            target="_blank">
-            Subscribe to our newsletter by filling out this form
-          </a>
-          <p>
-            Mailing list is maintained by us. See our Privacy Policy
-            <a href="https://borglabs.net/privacy-policy"></a>.
-          </p>
-        </div>
-      </Section>
+      <Section></Section>
     </Layout>
   );
 };
 
-export default Icarus;
+export default khloettrpg;

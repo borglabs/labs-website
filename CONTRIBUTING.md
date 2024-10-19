@@ -1,3 +1,3 @@
-# Contributing to React Native website
+# Contributing to Games
 
 testing deployment

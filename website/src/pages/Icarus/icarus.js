@@ -11,7 +11,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
 
-import IconExternalLink from '../theme/Icon/ExternalLink';
+//import IconExternalLink from '../../theme/Icon/ExternalLink';
 
 const renderApp = (app, i) => <AppBox app={app} key={`app-${app.name}-${i}`} />;
 
@@ -36,16 +36,16 @@ function Section({
 
 const AppBox = ({app}) => {
   const imgSource = useBaseUrl(
-    app.icon.startsWith('http') ? app.icon : 'img/khloe-ttrpg/' + app.icon
+    app.icon.startsWith('http') ? app.icon : 'img/icarus/' + app.icon
   );
 
   return (
-    <div className="khloe-ttrpg">
+    <div className="icarus">
       <div className="iconBox">
         <img src={imgSource} alt={app.name} className="iconBackground" />
         <img src={imgSource} alt={app.name} className="icon" />
       </div>
-      <div className="khloe-ttrpgContent">
+      <div className="icarusContent">
         <div>
           <h3>{app.name}</h3>
           {renderLinks(app)}
@@ -92,13 +92,13 @@ const renderLinks = app => {
       i === 0 ? [link] : [<span key={i}> • </span>, link]
     );
 
-  return <p className="khloe-ttrpgLinks">{links}</p>;
+  return <p className="icarusLinks">{links}</p>;
 };
 
 const randomizeApps = apps =>
   [...apps].filter(app => !app.group).sort(() => 0.5 - Math.random());
 
-const khloettrpg = () => {
+const Icarus = () => {
   const {siteConfig} = useDocusaurusContext();
 
   const {meta, microsoft, shopify, wix, amazon, others} =
@@ -112,17 +112,38 @@ const khloettrpg = () => {
   }, []);
 
   return (
-    <Layout
-      title="khloe-ttrpg"
-      description="Borg Labs is an independent game studio based in Nimbin, Byron Bay and the Gold Coast, Australia">
+    <Layout title="Icarus" description="Description for Icarus page">
       <Section background="dark">
         <div className="sectionContainer headerContainer">
-          <h1>Khloe TTRPG</h1>
+          <h1>Icarus</h1>
+          <p>Subtitle of the new Icarus game</p>
         </div>
       </Section>
-      <Section></Section>
+      <Section>
+        <div class="row">
+          <div class="column"></div>
+        </div>
+        <p>
+          Content Area
+          <br />
+        </p>
+      </Section>
+      <Section background="dark">
+        <div className="sectionContainer footerContainer">
+          <a
+            className="formButton"
+            href="https://forms.gle/6ZnaMPFmo9aBC5xw7"
+            target="_blank">
+            Subscribe to our newsletter by filling out this form
+          </a>
+          <p>
+            Mailing list is maintained by us. See our Privacy Policy
+            <a href="https://borglabs.net/privacy-policy"></a>.
+          </p>
+        </div>
+      </Section>
     </Layout>
   );
 };
 
-export default khloettrpg;
+export default Icarus;
