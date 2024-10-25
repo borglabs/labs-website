@@ -26,3 +26,11 @@ description: Images
 |      ![phoenix](//img/khloe/characters/phoenix.png)       |     |
 |           ![chania](/img/khloe/maps/chania.jpg)           |     |
 |       ![snakes_den](/img/khloe/maps/snakes_den.jpg)       |     |
+|        ![campiagn](/img/khloe/covers/campaign.png)        |     |
+|     ![chapter2](/img/khloe/covers/chapter1banner.png)     |     |
+|     ![chapter2](/img/khloe/covers/chapter2banner.png)     |     |
+|     ![chapter3](/img/khloe/covers/chapter3banner.png)     |     |
+|     ![chapter4](/img/khloe/covers/chapter4banner.png)     |     |
+|      ![chapter2](/img/khloe/covers/alternative1.png)      |     |
+|      ![chapter2](/img/khloe/covers/alternative2.png)      |     |
+|      ![chapter3](/img/khloe/covers/alternative3.png)      |     |

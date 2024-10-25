@@ -143,6 +143,17 @@ module.exports = {
       }),
     ],
     [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'icarus',
+        path: 'icarus',
+        routeBasePath: '/icarus',
+        sidebarPath: require.resolve('./sidebarsIcarus.json'),
+        ...commonDocsOptions,
+      }),
+    ],
+    [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
@@ -259,6 +270,7 @@ module.exports = {
                 label: 'Icarus',
                 type: 'doc',
                 docId: 'icarus-overview',
+                docsPluginId: 'icarus',
               },
               {
                 type: 'doc',
@@ -302,11 +314,11 @@ module.exports = {
             items: [
               {
                 label: 'Icarus',
-                to: 'icarus',
+                to: 'icarus/icarus-overview',
               },
               {
                 label: 'Khloe',
-                to: 'khloe-ttrpg',
+                to: 'khloettrpg/overview',
               },
             ],
           },
@@ -361,7 +373,7 @@ module.exports = {
             ],
           },
           {
-            title: 'Explore More',
+            title: 'Fine Print',
             items: [
               {
                 label: 'Privacy Policy',

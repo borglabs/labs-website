@@ -43,7 +43,7 @@ function Hero() {
           <a href="khloettrpg/overview" className={styles.secondaryButton}>
             Khloe TTRPG
           </a>
-          <a href="docs/icarus-overview" className={styles.secondaryButton}>
+          <a href="icarus/icarus-overview" className={styles.secondaryButton}>
             Icarus-The Labyrinth
           </a>
         </div>

@@ -1,0 +1,9 @@
+{
+  "icarus": [
+    {
+      "type": "category",
+      "label": "Icarus",
+      "items": ["icarus-overview"]
+    }
+  ]
+}
