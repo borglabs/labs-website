@@ -19,6 +19,7 @@ description: Images
 |             ![armor](/img/khloe/items/armour.png)              |     |
 |              ![cloak](/img/khloe/items/cloak.png)              |     |
 | ![wingtip-swordspear](/img/khloe/items/wingtip-swordspear.png) |     |
+|                ![bow](/img/khloe/items/bow.png)                |     |
 |        ![centaur](/img/khloe/characters/centaur_x.png)         |     |
 |           ![satyr](/img/khloe/characters/satyr.png)            |     |
 |    ![satyr_giant](/img/khloe/characters/satyr_giant_x.png)     |     |
@@ -33,6 +34,11 @@ description: Images
 |          ![medusa](//img/khloe/characters/medusa.png)          |     |
 |        ![minotaur](//img/khloe/characters/minotaur.png)        |     |
 |          ![stheno](//img/khloe/characters/stheno.png)          |     |
+|          ![mentor](//img/khloe/characters/mentor.png)          |     |
+|          ![dragon](//img/khloe/characters/dragon.png)          |     |
+|           ![druid](//img/khloe/characters/druid.png)           |     |
+|           ![khloe](//img/khloe/characters/khloe.png)           |     |
+|          ![knight](//img/khloe/characters/knight.png)          |     |
 |             ![chania](/img/khloe/maps/chania.jpg)              |     |
 |         ![snakes_den](/img/khloe/maps/snakes_den.jpg)          |     |
 |          ![campiagn](/img/khloe/covers/campaign.png)           |     |
