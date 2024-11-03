@@ -20,6 +20,13 @@ description: Images
 |              ![cloak](/img/khloe/items/cloak.png)              |     |
 | ![wingtip-swordspear](/img/khloe/items/wingtip-swordspear.png) |     |
 |                ![bow](/img/khloe/items/bow.png)                |     |
+|       ![bow](/img/khloe/items/alyzeusaegisofthesky.png)        |     |
+|       ![bow](/img/khloe/items/alyzeuschainofcommand.png)       |     |
+|      ![bow](/img/khloe/items/bracersofgiantsstrength.png)      |     |
+|           ![bow](/img/khloe/items/crushingflail.png)           |     |
+|          ![bow](/img/khloe/items/malgorbloodaxe.png)           |     |
+|       ![bow](/img/khloe/items/moonlightgreatscythe.png)        |     |
+|               ![bow](/img/khloe/items/giant.png)               |     |
 |        ![centaur](/img/khloe/characters/centaur_x.png)         |     |
 |           ![satyr](/img/khloe/characters/satyr.png)            |     |
 |    ![satyr_giant](/img/khloe/characters/satyr_giant_x.png)     |     |
