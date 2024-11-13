@@ -19,7 +19,7 @@ description: Images
 |                  ![armor](/img/khloe/items/armour.png)                   |     |
 |                   ![cloak](/img/khloe/items/cloak.png)                   |     |
 |      ![wingtip-swordspear](/img/khloe/items/wingtip-swordspear.png)      |     |
-|                     ![bow](/img/khloe/items/bow.png)                     |     |
+|             ![apollonsbow](/img/khloe/items/apollonsbow.png)             |     |
 |    ![alyzeusaegisofthesky](/img/khloe/items/alyzeusaegisofthesky.png)    |     |
 |   ![alyzeuschainofcommand](/img/khloe/items/alyzeuschainofcommand.png)   |     |
 | ![bracersofgiantsstrength](/img/khloe/items/bracersofgiantsstrength.png) |     |
