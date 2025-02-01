@@ -154,7 +154,6 @@ const About = () => {
             • <b>Danial Borg</b> | Project Manager/Game Designer
             <br />• <b>Seth Borg</b> | Creative Director/Author
             <br />• <b>Lewis Smart</b> | Artist/Graphics
-            <br />• <b>Holly Tutin</b> | Editing
             <br />• <b>Fouad</b> | Game Dev
             <br />
           </p>
